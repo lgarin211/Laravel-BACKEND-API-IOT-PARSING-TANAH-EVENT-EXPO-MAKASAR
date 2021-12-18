@@ -36,6 +36,19 @@ Route::get('/take', function () {
 Route::get('/saveke', function () {
     if (!empty($_GET['blass'])) {
         if (!empty($_GET['t'])) {
+            if($t==ph){
+
+            if (!empty($_GET['r'])) {
+                if (!empty($_GET['val'])) {
+                    DB::table($_GET['t'])->insert([
+                        [$_GET['r'] => int () $_GET['val']+7,'blass' => $_GET['blass']],
+                    ]);
+                    return response()->json('clear');
+                }
+            }   
+
+            }else{
+                    //
             if (!empty($_GET['r'])) {
                 if (!empty($_GET['val'])) {
                     DB::table($_GET['t'])->insert([
@@ -43,7 +56,10 @@ Route::get('/saveke', function () {
                     ]);
                     return response()->json('clear');
                 }
-            }     
+            }    
+                    // 
+            }
+  
         }     
     }else {
      return response()->json('empty');
