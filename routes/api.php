@@ -36,7 +36,7 @@ Route::get('/take', function () {
 Route::get('/saveke', function () {
     if (!empty($_GET['blass'])) {
         if (!empty($_GET['t'])) {
-            if($t==ph){
+            if($_GET['t']=='ph'){
 
             if (!empty($_GET['r'])) {
                 if (!empty($_GET['val'])) {
