@@ -90,7 +90,7 @@
         <div class="col-xl-8">
           <h1>SmartBee - IOT</h1>
           <h2>Kami Hadir Untuk Mempermudah Hidupmu</h2>
-          <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox play-btn mb-4"></a>
+          <a href="https://www.youtube.com/watch?v=cd5e9KscTxA" class="glightbox play-btn mb-4"></a>
         </div>
       </div>
     </div>
@@ -321,7 +321,7 @@
     <!-- End Features Section -->
 
     <!-- ======= Clients Section ======= -->
-    <section id="clients" class="clients">
+    <!-- <section id="clients" class="clients">
       <div class="container">
 
         <div class="row no-gutters clients-wrap clearfix wow fadeInUp">
@@ -377,7 +377,8 @@
         </div>
 
       </div>
-    </section><!-- End Clients Section -->
+    </section> -->
+    <!-- End Clients Section -->
 
     <!-- ======= Portfolio Section ======= -->
     <!-- <section id="portfolio" class="portfolio">
