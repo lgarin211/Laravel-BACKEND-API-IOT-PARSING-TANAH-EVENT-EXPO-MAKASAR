@@ -41,7 +41,7 @@ Route::get('/saveke', function () {
             if (!empty($_GET['r'])) {
                 if (!empty($_GET['val'])) {
                     DB::table($_GET['t'])->insert([
-                        [$_GET['r'] => int () $_GET['val']+7,'blass' => $_GET['blass']],
+                        [$_GET['r'] => int () $_GET['val']+3,'blass' => $_GET['blass']],
                     ]);
                     return response()->json('clear');
                 }
