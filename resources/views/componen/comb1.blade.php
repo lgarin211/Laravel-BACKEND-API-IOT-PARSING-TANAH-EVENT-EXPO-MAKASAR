@@ -633,13 +633,13 @@
 @section('tombo2')
 <div class="row">
   <div class="col-md-12">
-    <div class="row">
+    <div class="row p-1">
       <div class="col-md-3">Saat ini</div>
       <div class="col-md-9"><input class="form-control form-control-lg" type="text" placeholder=".form-control-lg" readonly value="30" aria-label=".form-control-lg example"></div>
     </div>
   </div>
     <div class="col-md-12">
-    <div class="row">
+    <div class="row p-1">
       <div class="col-md-3">Rubah Ke</div>
       <div class="col-md-9"><input class="form-control form-control-lg" type="text" placeholder=".form-control-lg" value="30" aria-label=".form-control-lg example"></div>
     </div>

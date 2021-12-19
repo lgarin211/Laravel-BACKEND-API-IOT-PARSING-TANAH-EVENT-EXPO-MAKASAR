@@ -80,7 +80,7 @@
                       <h4>Laporan Bulanan</h4>
                     </div>
                     <div class="card-body">
-
+                        <div id="bar"></div>
                     </div>
                   </div>
                 </div>

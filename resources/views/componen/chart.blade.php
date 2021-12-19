@@ -168,7 +168,7 @@ var options = {
   title: {
       text: 'Data Terakhir Desember 2021',
   },
-	colors: ['#5350e9'],
+	colors: ['#6450e9'],
 	stroke: {
 		width: 2,
 	},

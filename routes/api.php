@@ -37,15 +37,16 @@ Route::get('/saveke', function () {
     if (!empty($_GET['blass'])) {
         if (!empty($_GET['t'])) {
             if($_GET['t']=='ph'){
-
-            if (!empty($_GET['r'])) {
-                if (!empty($_GET['val'])) {
-                    DB::table($_GET['t'])->insert([
-                        [$_GET['r'] => $_GET['val']+3,'blass' => $_GET['blass']],
-                    ]);
-                    return response()->json('clear');
-                }
-            }   
+                if (!empty($_GET['r'])) {
+                    if (!empty($_GET['val'])) {
+                        $_GET['val']=number_format($_GET['val'],0, '.', '');
+                        // dd($_GET['val']);
+                        DB::table($_GET['t'])->insert([
+                            [$_GET['r'] => $_GET['val']-39,'blass' => $_GET['blass']],
+                        ]);
+                        return response()->json('clear');
+                    }
+                }   
 
             }else{
                     //
